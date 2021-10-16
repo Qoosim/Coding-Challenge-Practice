@@ -6,7 +6,7 @@ const findLongestWordLength = str => {
             theLongest = splittedStr[i];
         }
     }
-    return (theLongest, theLongest.length);
+    return `${theLongest}: ${theLongest.length}`;
 }
 
 console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"));

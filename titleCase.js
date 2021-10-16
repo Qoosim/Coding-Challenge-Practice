@@ -4,7 +4,7 @@ const titleCase = str => {
     for (let i = 0; i < splittedStr.length; i++) {
         let firstLetter = splittedStr[i][0].toUpperCase();
         let capitalized = splittedStr[i].replace(splittedStr[i][0], firstLetter);
-        final.push(capitalized);
+        final[i] = capitalized;
     }
     return final.join(' ');
 }
